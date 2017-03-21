@@ -1,0 +1,343 @@
+@charset "UTF-8";
+/*css 公用样式 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset, img, input, button {
+    /* border: none; */
+    padding: 0;
+    margin: 0;
+  /*   outline-style: none; */
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "Microsoft YaHei";
+}
+
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+   /*  font-size: 12px; */
+    margin: 0;
+}
+textarea {
+    resize: none;
+}
+
+/*·图片样式*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*  */
+table {
+    border-collapse: collapse;
+}
+
+/*  body {
+   font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+   color: #666;
+   background: #dedede
+}
+*/
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+a {
+   /*  color: #666; */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C81623;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+   /*  font-weight: normal; */
+   /*  font-size: 100%; */
+}
+
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+.col-red {
+    color: #C81623 !important;
+}
+
+/* .w {
+    版心
+    width: 1270px;
+    margin: 0 auto;
+    font-size: 30px;
+} */
+
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.al {
+    text-align: left
+}
+
+.ac {
+    text-align: center
+}
+
+.ar {
+    text-align: right
+}
+
+.hide {
+    display: none
+}
+body {
+    padding: 0 44px;
+}
+
+/* 头部header样式开始*/
+/* 定义版心 */
+.inner_c {
+    width: 892px;
+    margin: 0 auto;
+}
+#header {
+    border-bottom:2px solid #938e8c;
+    overflow: auto;
+    margin-bottom: 34px;
+
+}
+#header .logo {
+    display: block;
+    width: 110px;
+    height: 61px;
+    background-color: #d45c5b;
+
+}
+#header .time {
+    margin-top: 46px;
+    font: 12px "STHeiti"  ;
+    color: #d45d5c;
+   line-height: 12px;
+}
+/* 头部header样式结束 */
+
+
+
+/* top-banner样式开始 */
+/* top-banner 左侧开始 */
+#top-banner {
+
+}
+#top-banner .img{
+    width: 641px;
+
+    background:url(../img/left.jpg);
+}
+#top-banner .img .left{
+    width: 191px;
+    height: 301px;
+    background-color: red;
+    opacity: .4;
+}
+#top-banner .img .right{
+    width: 191px;
+    height: 301px;
+    background-color: green;
+    opacity: .4;
+}
+/* top-banner左侧结束 */
+
+/* top-banner右侧开始 */
+#top-banner .big {
+    border-top: 2px solid #cc8091;
+    width: 203px;
+    height: 301px;
+
+}
+#top-banner .big .top p {
+    font: 24px Microsoft YaHei;
+    color: #000;
+    display: inline-block;
+    border-bottom:2px solid #000;
+}
+
+#top-banner .big .top p strong{
+    font-size: 30px;
+}
+
+#top-banner .big .top p:last-child {
+    font:12px KaiTi;
+    color:#676767;
+    border: none;
+
+}
+
+#top-banner .big .mid {
+    font:116px microsoft yahei;
+    color:#75b86b;
+    font-style: italic;
+    height: 130px;
+}
+#top-banner .big .down {
+    color: #cc8091;
+    font-family: microsoft yahei;
+}
+
+#top-banner .big .down div:first-child{
+    font-size:55px ;
+
+}
+#top-banner .big .down div span:first-child {
+    font-size:21px ;
+}
+#top-banner .big .down div span:last-child {
+  font-size:12px ;
+}
+
+
+/* top-banner样式结束 */
+
+
+
+/* container样式开始 */
+#container {
+   padding-top:40px;
+}
+#container div {
+    width: 197px;
+    float: left;
+
+}
+
+#container div div {
+  /* font:16px/400 Microsoft YaHei; */
+    font:16px/150%  Microsoft YaHei;
+    text-decoration: underline;
+    font-weight: 400;
+
+}
+#container div .what div{
+    color:#418c59;
+}
+#container div.when {
+    margin:0 25px;
+}
+#container  div.when div{
+    color:#d2994f;
+}
+#container  div.how div{
+    color:#cc7680;
+}
+
+
+#container div p {
+    font:12px/150% heiti;
+  /*   text-indent: 2em; */
+    opacity: .7;
+
+}
+#container .how .down {
+    padding-top:24px;
+}
+#container .how .down p{
+    font: 12px/150% Microsoft YaHei;
+    font-style: italic;
+    color:#cd4a48;
+}
+/* container样式结束 */
+
+
+
+/* article样式开始 */
+
+#article {
+    padding-top: 75px;
+}
+#article .left{
+    width:410px;
+    /* margin-right: 20px; */
+
+}
+#article .left .up {
+    border-bottom:2px solid #11456b;
+}
+#article .left .up p{
+    font:28px stheiti;
+    color:#11456b;
+    line-height: 50px;
+}
+#article .left .up p b{
+   font-size: 72px;
+   font-style: italic;
+   color: #f5e327;
+   font-weight: 400;
+}
+
+#article .left .down  {
+padding: 20px;
+}
+
+#article .left .down p {
+    font:12px/20px simsun;
+    color: #767777;
+}
+#article .left .down p strong {
+    font:70px microsoft yahei;
+    color: #f5e327;
+}
+
+#article .right .up {
+    background:  url('../img/downright.jpg')  no-repeat;
+    width: 428px;
+    height: 61px;
+    padding: 196px 0 0 0px;
+}
+#article .right .up .op {
+  height: 45px;
+  background-color: #000;
+  opacity: .3;
+  padding:8px 38px;
+}
+#article .right .up .op div {
+    height: 28px;
+    border-left: 3px solid #72b16a;
+    font:12px microsoft yahei;
+    color: #72b16a;
+    padding:8px;
+    font-style: italic;
+}
+#article .right .up .op div .big {
+    font-size: 26px;
+    color: #fff;
+    font-style: normal;
+}
+/* article样式结束 */

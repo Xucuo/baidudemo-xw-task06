@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+body div {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+}
+body div div {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+body div ul {
+  list-style: none;
+}
+body div ul li {
+  float: left;
+}
