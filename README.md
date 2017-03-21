@@ -1,3 +1,6 @@
+# 百度ife小薇学院任务六：通过HTML及CSS模拟报纸排版  
+[任务目标地址]（http://ife.baidu.com/course/detail/id/99）  
+
 ## 任务目的：
 深入掌握CSS中的字体、背景、颜色等属性的设置
 进一步练习CSS布局
